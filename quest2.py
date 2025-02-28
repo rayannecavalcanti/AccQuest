@@ -9,7 +9,6 @@ browser = webdriver.Chrome()
 browser.get('https://demoqa.com/')
 browser.maximize_window()
 
-
 wait = WebDriverWait(browser, 20) 
 
 alerts_frame_windows_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "//div[@class='card-body']//h5[text()='Alerts, Frame & Windows']")))
