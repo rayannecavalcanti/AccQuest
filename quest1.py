@@ -21,8 +21,6 @@ forms_btn.click()
 practice_btn = browser.find_element(By.XPATH, "//span[text()='Practice Form']")
 practice_btn.click()
 
-##Início do preenchimento do formulário
-
 first_name = browser.find_element(By.ID, "firstName")
 first_name.send_keys(modules.first_name())
 time.sleep(1)
